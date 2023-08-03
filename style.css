@@ -1,0 +1,303 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Montez&family=Montserrat:wght@300;700&family=Scada&display=swap');
+
+body{
+font-family: 'EB Garamond', serif;
+font-family: 'Montez', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Scada', sans-serif;
+	padding:0;
+	margin:0; 
+}
+.wrapper{
+	background-color:#ECE5DD;
+	width: 1280px;
+	height: 4530.7px;
+	border: 2px solid red;
+	margin:0 auto;
+	position: relative;
+
+}
+/*меню іконки*/
+.icons_menu{
+	display: flex;
+}
+.header{
+	width:100%;
+	height: 120px;
+	
+}
+.menu{
+	margin-top: -24px;
+	font-size: 18px;
+	padding-left: 3px;
+	padding-bottom: 5px;
+	margin-left: 40px;
+	width: 46px;
+	height: 20px;
+	border-top: 2px solid ;
+	border-bottom: 2px solid ;
+	transition: width 2s;
+}
+.menu:hover {
+	width: 0px;
+	color: #80744A;
+}
+
+.icons{
+	height:32px;
+	margin-left: 1025px;
+	margin-top: 24px;
+	transition: width 2s;
+}
+.socials , .inst , .telega{
+	width:32px;
+	height:32px;
+	padding-left: 32px;
+	
+}
+/*foto*/
+.photome1{
+	width: 1200px;
+	height: 592px;
+	margin:0 auto;
+	margin-top: 64px;
+	 
+}
+.text-biography{
+	font-size: 80px;
+	margin-left: 104px;
+	padding-top: 48px;
+	font-family: 'B Garamond', serif;
+}
+.button{
+	padding-left: 61px;
+	padding-top: 24px;
+	font-size: 18px;
+	margin-top: 328px;
+	margin-left: 484px;
+	height: 52px;
+	width: 192px;
+	border-radius: 50%;
+	border:2px solid;
+	position: relative;
+	transition: width 10s;
+}
+.button:hover{
+	color:#868F74;
+}
+.photo1{
+	width: 1200px;
+	height: 592px;
+
+	border-radius: 80px;
+background-image: url(изображение_viber_2023-05-23_19-13-37-520.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.block{
+	display: flex;
+	/*border: 1px solid;*/
+	margin-top: 136px;
+}
+
+.image{
+	/*margin-left: 4px;*/
+	border-radius: 48px;
+	margin-top: 
+	width:368px ;
+	height: 498px;
+
+}
+
+h1{
+	font-size: 40px;
+	font-family: 'B Garamond', serif;
+}
+.text{
+	margin-left: 152px;
+	/*padding-top: 60px;*/
+	margin-top: 90px;
+	width: 576px;
+	height: 446px;
+}
+.icons_menu2{
+	width:60px;
+	height:190px;
+	/*border: 1px solid;*/
+	margin-top: 163px;
+	margin-right: 64px;
+}
+.socials , .inst , .telega{
+	width: 32px;
+	height: 32px;
+	margin-bottom: 32px;
+	}
+.hb1{
+	margin-top: -335px;
+	margin-left: 560px;
+	width: 680px;
+	height: 400px;
+	border-radius: 40px;
+}
+.text_hb1{
+	margin-top: 135px;
+	width: 472px;
+	height: 320px;
+	margin-left: 40px;
+}
+.hb2{
+	margin-top: 80px;
+	margin-left: 40px;
+	width: 680px;
+	height: 400px;
+	border-radius: 40px;
+}
+.text_hb2{
+	margin-top: -435px;
+	width: 472px;
+	height: 320px;
+	margin-left: 768px;
+}
+.tsitat{
+	margin-top: 180px;
+	position: relative;
+}
+.text_tsitata{
+	font-family: 'B Garamond', serif;
+	position: absolute;
+	font-size: 48px;
+	margin-left: 144px;
+	height: 162px;
+	width: 992px;
+	margin-top: -260px;
+	text-align: center;
+}
+
+
+	
+.foto_skils{
+	margin-top: -200px;
+	width: 324px;
+	height: 72px;
+	margin-left: 203px;
+	display: flex;
+	margin-bottom:40px;
+}
+.foto_skils2{
+	margin-top: 40px;
+	width: 328px;
+	height: 72px;
+	margin-left: 201px;
+	display: flex;
+	margin-bottom:40px;
+}
+.text_skils{
+	margin-top: 136px;
+	margin-left: 144px;
+	width: 462.5px;
+	height: 144px;
+}
+/*.html, .Figma, .cpp, .phyton, .css, .skretch{
+    margin-bottom:40px;
+} */
+.button_pereiti{
+	width: 141px;
+	height: 44px;
+	border: 1.8px solid;
+	border-radius:32px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    text-decoration-color: black;
+    /*margin-top: 40px;*/
+    margin-right: 620px;
+
+}
+.myfoto_to_skils{
+	width: 472px;
+	height: 496px;
+	margin-top: -175px;
+	margin-left: 771px;
+}
+.container_slider {
+     margin: 0 auto; /*відцентровуємо*/
+     width: 784px; /*ширина*/
+     height: 680px; /*висота*/
+     position: relative;
+     overflow: hidden;
+     margin-top: 80px;
+}
+.photo_slider {
+  position: absolute;
+  animation: round 16s infinite;
+  opacity: 0;
+}
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+.photo_slider:nth-child(1) {
+  animation-delay: 0s;
+  text-align: center;
+}
+
+.photo_slider:nth-child(2) {
+  animation-delay: 9s;
+  text-align: center;
+}
+
+.photo_slider:nth-child(3) {
+  animation-delay: 12s;
+  text-align: center;
+}
+
+.line{
+	margin-top: 80px;
+	
+}
+.icons3{
+	width:60px;
+	height:190px;
+	/*border: 1px solid;*/
+	margin-top: -90px;
+	margin-right: 40px;
+	float: right;
+}
+.socials , .inst , .telega{
+	width: 24px;
+	height: 24px;
+	margin-bottom: 32px;
+	}
+	.txte{
+		width: 830px;
+		margin-top:124px; 
+		margin-bottom:-40px;
+		text-decoration: none;
+		/*border: 1px solid;*/
+		font-size: 24px;
+		display: flex;
+		justify-content: center;
+		margin-left: 242px;
+		text-decoration: none; 
+		color: black;
+	}
+	p{
+		padding-left: 40px;
+	}
+	.hg{
+		width: 100px;
+		height: 100px;
+		border: 1px solid;
+		padding:10px 20px 30px;
+	}
