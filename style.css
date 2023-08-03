@@ -115,13 +115,17 @@ background-image: url(изображение_viber_2023-05-23_19-13-37-520.jpg);
 h1{
 	font-size: 40px;
 	font-family: 'B Garamond', serif;
+
 }
 .text{
-	margin-left: 152px;
+	margin-left: 150px;
 	/*padding-top: 60px;*/
 	margin-top: 90px;
 	width: 576px;
 	height: 446px;
+}
+.text_h1_1{
+	text-align: center;
 }
 .icons_menu2{
 	width:60px;
@@ -141,12 +145,18 @@ h1{
 	width: 680px;
 	height: 400px;
 	border-radius: 40px;
+
 }
 .text_hb1{
 	margin-top: 135px;
 	width: 472px;
 	height: 320px;
 	margin-left: 40px;
+
+}
+.text_h1_2{
+	
+	margin-left: 35px;
 }
 .hb2{
 	margin-top: 80px;
@@ -156,11 +166,17 @@ h1{
 	border-radius: 40px;
 }
 .text_hb2{
+	
 	margin-top: -435px;
 	width: 472px;
 	height: 320px;
 	margin-left: 768px;
 }
+.text_h1_3{
+	margin-left: 320px;
+	
+}
+
 .tsitat{
 	margin-top: 180px;
 	position: relative;
@@ -269,7 +285,7 @@ h1{
 	width:60px;
 	height:190px;
 	/*border: 1px solid;*/
-	margin-top: -90px;
+	margin-top: -128px;
 	margin-right: 40px;
 	float: right;
 }
@@ -280,7 +296,7 @@ h1{
 	}
 	.txte{
 		width: 830px;
-		margin-top:124px; 
+		margin-top:114px; 
 		margin-bottom:-40px;
 		text-decoration: none;
 		/*border: 1px solid;*/
